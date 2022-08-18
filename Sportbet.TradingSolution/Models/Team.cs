@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sportbet.TradingSolution.Models
 {
-    public class Player
+    public class Team
     {
-        public int Number { get; set; }
-        public string Name { get; set; }
+       public int Id { get; set; }
+       public string Name { get; set; }
     }
 }

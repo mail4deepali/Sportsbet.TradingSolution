@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sportbet.TradingSolution.Models
 {
-    public class Player
+    public class DepthChartData
     {
-        public int Number { get; set; }
-        public string Name { get; set; }
+        public string Position { get; set; }
+        public Player Player { get; set; }
+        public int? PositionDepth { get; set; }
+ 
     }
 }

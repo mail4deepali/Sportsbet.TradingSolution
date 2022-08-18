@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace Sportbet.TradingSolution.Models
 {
-    public class Player
+    public class Ranking
     {
         public int Number { get; set; }
-        public string Name { get; set; }
+        public string PlayerName { get; set; }
+
+        public string Position { get; set; }
+        public int Depth { get; set; }
     }
 }
